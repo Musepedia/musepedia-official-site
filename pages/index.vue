@@ -8,11 +8,6 @@
           <img src="/assets/ReadingPeople.png" class="bgphoto"/>
         </el-main>
       </el-container>
-      <el-footer>
-        <el-row class="info">邮箱：</el-row>
-        <el-row class="info">版权所有 © 2021-2022 AbstractMGS。 </el-row>
-        <el-row class="info">沪ICP备2020032822号-2</el-row>
-      </el-footer>
     </div>
 </template>
 
