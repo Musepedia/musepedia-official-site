@@ -46,14 +46,14 @@
 .aside{
   margin-top:77px;
 }
-.bgphoto{
-  display: flex;
+.aside.bgphoto{
   margin-top: 45px;
   margin-bottom: 0;
   margin-left: 30px;
-  width:400px;
-  height:466px;
+  width:auto;
+  height:auto;
   float:right;
+  transform: scale(0.75,0.75);
 }
 .el-footer{
   width:100%;

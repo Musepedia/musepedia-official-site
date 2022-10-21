@@ -85,7 +85,7 @@ a:-webkit-any-link {
 .router-link-active.router-link-exact-active {
   text-decoration: none;
   color:#d1dbe5;
-  border-bottom: 2px solid #99bcdf;
+  border-bottom: 2px solid #b38463;
   padding-bottom: 6px;
 }
 .info{
