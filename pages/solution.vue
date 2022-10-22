@@ -95,7 +95,7 @@
             <div class = "pt3_1">
               <div class="orange_box6"/>
                 <div style = "width: 40%; margin-right: 110px; margin-top: 50px;">
-                    <h1 style = "text-align: right;font-szie:2.7em;">推荐提问</h1>
+                    <h1 style = "text-align: right;font-size:2.7em; font-weight: bold;">推荐提问</h1>
                     <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:32px;">Ginkgo系统能给予用户兴趣以及用户当前的提问推荐相关问题，
                         帮助游客更好的了解产品；推荐提问不仅在问答界面中可以获取，
                         在主页中也有推荐，游客可以直接学习
@@ -107,43 +107,59 @@
                 </div>
             </div>
 
-            <div class = "pt3_2">
-                <div id = "info">
-                    <img src = "../assets/tmp2.png"/>
-                    <br>
-                    <span>推荐</span>
-                </div>
-                <div id = "info">
-                    <img src = "../assets/tmp2.png"/>
-                    <br>
-                    <span>详情</span>
-                </div>
-                <div id = "info">
-                    <img src = "../assets/tmp2.png"/>
-                    <br>
-                    <span>提问</span>
-                </div>
-                <div id = "info">
-                    <img src = "../assets/tmp2.png"/>
-                    <br>
-                    <span>推荐展区</span>
-                </div>
+            <div class="photoShow">
+              <a target="_blank" href="/assets/example5.png">
+                <img src="/assets/example5.png" class="phone">
+              </a>
+              <a target="_blank" href="/assets/example6.png">
+                <img src="/assets/example6.png" class="phone">
+              </a>
+              <a target="_blank" href="/assets/example7.png">
+                <img src="/assets/example7.png" class="phone">
+              </a>
+              <a target="_blank" href="/assets/example8.png">
+                <img src="/assets/example8.png" class="phone">
+              </a>
+              <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
+                <span style="font-size:18px;margin-left:108px;">首页</span>
+                <hr class="divide">
+                <span style="font-size:18px;margin:0;">搜索</span>
+                <hr class="divide">
+                <span style="font-size:18px;">提问</span>
+                <hr class="divide">
+                <span style="font-size:18px;">详情</span>
+              </el-row>
             </div>
         </div>
 
         <div class = "pt3">
             
-            <div class = "bg2">
+            <div class = "bg2"/>
                 <!-- 斜杠 -->
+            
+            
+            <div style="position:absolute;z-index: 3; left: 12%; margin-top: 260px;">
+              <img src="../assets/ginkgo1.png" style="width: 95%;height: 95%;border-radius: 20px;"/>
+            </div>
+            <div style="position:absolute;z-index: 3; left: 34%; margin-top: 250px;">
+              <img src="../assets/ginkgo2.png" style="width: 70%;height: 70%;border-radius: 20px;"/>
+            </div>
+            <div style="position:absolute;z-index: 3; left: 45%; margin-top: 290px;border-radius: 20px;">
+              <img src="../assets/ginkgo3.png"/>
             </div>
 
             <div class = "pt3_1">
 
-                <div style = "margin-right: 50px; text-align: right; width: 45%;">
-                    <img src="../assets/tmp1.png"/>
+                <div class = "textbox">
+                    <span style="font-size:30px; font-weight: bold; line-height: 50px;">银杏</span>
+                    <br/> 
+                    <span>杏（学名：Ginkgo biloba），落叶乔木，寿命可达3000年以上。
+                      又名公孙树、鸭掌树、鸭脚树、鸭脚子等[4]，其裸露的种子称为白果，叶称蒲扇[5]。
+                    </span>
                 </div>
+
                 <div style = "margin-left: 50px; margin-top: 50px;">
-                    <h1 style = "text-align: left;">发现更多</h1>
+                    <h1 style = "text-align: left;font-size:2.7em; font-weight: bold;">发现更多</h1>
                     <p style = "text-align: left; margin-right: 200px; max-width: 300px;line-height:32px;">根据不同⽤户的提问，展示当前热⻔展品及其相关的提问，
                         ⽤户可以点击感兴趣的展品了解详情，并浏览相关的热⻔问题及回答
                     </p>
@@ -151,7 +167,7 @@
 
             </div>
 
-            <div class = "pt3_2">
+            <!-- <div class = "pt3_2">
                 <div id = "info">
                     <img src = "../assets/tmp2.png"/>
                     <br>
@@ -167,6 +183,24 @@
                     <br>
                     <span>相关</span>
                 </div>
+            </div> -->
+            <div class="photoShow">
+              <a target="_blank" href="/assets/example9.png">
+                <img src="/assets/example9.png" class="phone" style="margin-left:10%;">
+              </a>
+              <a target="_blank" href="/assets/example10.png">
+                <img src="/assets/example10.png" class="phone" style="margin-left:10%;">
+              </a>
+              <a target="_blank" href="/assets/example11.png">
+                <img src="/assets/example11.png" class="phone" style="margin-left:10%;">
+              </a>
+              <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
+                <span style="font-size:18px;margin-left:108px;">发现</span>
+                <hr class="divide" style="width: 28%">
+                <span style="font-size:18px;margin:0;">详情</span>
+                <hr class="divide" style="width: 28%">
+                <span style="font-size:18px;">相关</span>
+              </el-row>
             </div>
 
         </div>
@@ -417,7 +451,6 @@
 
 .bg2{
     position:absolute;
-    z-index: 1;
     background: linear-gradient(to right, rgba(255,214,42,0.40) 0%, rgba(255,214,42,0.00) 100%);
     transform: skewY(-20deg);
     height:350px;
@@ -425,6 +458,7 @@
     margin-right: 50%;
     margin-top: 200px;
     left: 0px;
+    z-index: 1;
 }
 
 .pt3{
@@ -470,5 +504,19 @@
             height: 300px;
         }
     }
+}
+
+.textbox{
+    // position:absolute;
+    margin: 50px 5% 0 20%;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 30%;
+    height: 220px;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 10px 20px 0px 20px;
+    font-weight: 400;
 }
 </style>
