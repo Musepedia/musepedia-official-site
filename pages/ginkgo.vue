@@ -2,7 +2,7 @@
     <div>
         <div class="intro-background">
             <img src="/assets/Ginkgo.png" class="logo"/>
-            <div class="intro-text">Ginkgo 介绍</div>
+            <div class="intro-text">Ginkgo系统是我们为博物馆导览自主研发和设计的多场景端到端解决方案，能为Musepedia提供导览服务的同时，也为博物馆提供数据分析的技术支持。</div>
         </div>
 
         <ArchitectureDetail 
@@ -35,7 +35,9 @@
     margin-left: 20%;
 }
 .intro-text {
+    font-size: 18px;
     margin-top: 20px;
     margin-left: 20%;
+    margin-right: 50%;
 }
 </style>

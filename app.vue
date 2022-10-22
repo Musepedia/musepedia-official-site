@@ -24,9 +24,9 @@
     </NuxtLayout>
 
     <el-footer>
-      <el-row class="info">邮箱：</el-row>
-      <el-row class="info">版权所有 © 2021-2022 AbstractMGS。 </el-row>
-      <el-row class="info">沪ICP备2020032822号-2</el-row>
+      <el-row class="info">联系邮箱：mimiter@mimiter.com</el-row>
+      <el-row class="info">Copyright © 2022 Mimiter Technology. All rights reserved. 米弥特科技 版权所有 </el-row>
+      <el-row class="info"><a href="http://beian.miit.gov.cn" target="_blank">沪ICP备2022030073</a></el-row>
     </el-footer>
   </div>
 </template>
@@ -82,6 +82,12 @@ a:-webkit-any-link {
       color: #000000;
   }
 }
+a:link {
+  color: #000000;
+}
+a:visited {
+  color: #000000;
+}
 .router-link-active.router-link-exact-active {
   text-decoration: none;
   color:#d1dbe5;
@@ -90,6 +96,7 @@ a:-webkit-any-link {
 }
 .info{
   font-family: 'PingFang SC';
+  font-size: 15px;
   text-align: center;
   justify-content: center;
   line-height: 33px;
