@@ -55,17 +55,25 @@
 
         <el-main class="example">
           <span class="QA_title">问答功能</span>
-          <span class="QA_intro">通过在对话框中发送问题，Ginkgo系统会抽取出最佳答案，并针对特定问题给出定制的可视化回答。<br>除此之外，通过“扫⼀扫”功能可以获取更多当前展品的信息</span>
+          <p class="QA_intro">通过在对话框中发送问题，Ginkgo系统会抽取出最佳答案，并针对特定问题给出定制的可视化回答。<br>除此之外，通过“扫⼀扫”功能可以获取更多当前展品的信息</p>
         </el-main>
         
       </el-container>
     </div>
     <div class="photoShow">
+      <a target="_blank" href="/assets/example1.png">
         <img src="/assets/example1.png" class="phone">
+      </a>
+      <a target="_blank" href="/assets/example2.png">
         <img src="/assets/example2.png" class="phone">
+      </a>
+      <a target="_blank" href="/assets/example3.png">
         <img src="/assets/example3.png" class="phone">
+      </a>
+      <a target="_blank" href="/assets/example4.png">
         <img src="/assets/example4.png" class="phone">
-        <el-row style="margin-top: 23px;">
+      </a>
+        <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
           <span style="font-size:18px;margin-left:108px;">首页</span>
           <hr class="divide">
           <span style="font-size:18px;margin:0;">搜索</span>
@@ -76,7 +84,7 @@
         </el-row>
         
     </div>
-  </div>
+  
     <div class = "p3container">
         
         <div class = "pt3">
@@ -84,17 +92,18 @@
             <div class = "bg1">
                 <!-- 斜杠 -->
             </div>
-
             <div class = "pt3_1">
-                <div style = "width: 45%; margin-right: 50px; margin-top: 50px;">
-                    <h1 style = "text-align: right;">推荐提问</h1>
-                    <p style = "text-align: right; margin-left: 300px">Ginkgo系统能给予用户兴趣以及用户当前的提问推荐相关问题，
+              <div class="orange_box6"/>
+                <div style = "width: 40%; margin-right: 110px; margin-top: 50px;">
+                    <h1 style = "text-align: right;font-szie:2.7em;">推荐提问</h1>
+                    <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:32px;">Ginkgo系统能给予用户兴趣以及用户当前的提问推荐相关问题，
                         帮助游客更好的了解产品；推荐提问不仅在问答界面中可以获取，
                         在主页中也有推荐，游客可以直接学习
                     </p>
                 </div>
-                <div style = "margin-left: 50px">
-                    <img src="../assets/tmp1.png"/>
+                
+                <div style = "margin-left: 60px">
+                    <img src="../assets/tmp1.png" style="transform: scale(1.2,1.2);border-radius:25px;"/>
                 </div>
             </div>
 
@@ -135,7 +144,7 @@
                 </div>
                 <div style = "margin-left: 50px; margin-top: 50px;">
                     <h1 style = "text-align: left;">发现更多</h1>
-                    <p style = "text-align: left; margin-right: 200px; max-width: 300px;">根据不同⽤户的提问，展示当前热⻔展品及其相关的提问，
+                    <p style = "text-align: left; margin-right: 200px; max-width: 300px;line-height:32px;">根据不同⽤户的提问，展示当前热⻔展品及其相关的提问，
                         ⽤户可以点击感兴趣的展品了解详情，并浏览相关的热⻔问题及回答
                     </p>
                 </div>
@@ -163,6 +172,7 @@
         </div>
 
     </div>
+  </div>
 </template>
 
 <script>
@@ -176,7 +186,7 @@
 .all{
   position: relative;
   width:100%;
-  height:2808.5px;
+  height:auto;
   background: rgba(255,104,57,0.09);
   margin:0%;
 }
@@ -320,7 +330,7 @@
   height: 40px;
   width: 200px;
   line-height: 40px;
-  font-family: auto;
+  font-family: 'Noto Sans SC', sans-serif;
   font-weight: bold;
   font-size: 1.1em;  
   padding-inline-start: 20px;
@@ -337,7 +347,7 @@
   height: 40px;
   width: 300px;
   line-height: 40px;
-  font-family: auto;
+  font-family: 'Noto Sans SC', sans-serif;
   font-weight: bold;
   font-size: 1.1em;  
   padding-inline-start: 20px;
@@ -364,12 +374,13 @@
   inline-size: 44%;
   line-height: 32px;
   font-weight: 500;
+  font-family: 'Noto Sans SC', sans-serif;
   letter-spacing: 0.1px;
   word-wrap: break-word;
 }
 .photoShow{
   position:relative;
-  margin:0 200px;
+  margin: 0px 200px 80px 200px;
 }
 .phone{
   position: relative;
@@ -397,7 +408,7 @@
     z-index: 1;
     background: linear-gradient(to left, rgba(255,214,42,0.40) 0%, rgba(255,214,42,0.00) 100%);
     transform: skewY(20deg);
-    height:350px;
+    height:370px;
     width: 50%;
     margin-left: 50%;
     margin-top: 200px;
@@ -424,14 +435,24 @@
 }
 
 .pt3_1{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 150px;
     display: flex;
     flex-direction: row;
     vertical-align: middle;
     z-index: 2;
 }
-
+.orange_box6{
+  position:absolute;
+  z-index: -1;
+  margin-block-start: -80px;
+  margin-left:65%;
+  width: 65px;
+  height: 65px;
+  background: #ffe976;
+  border-radius: 11px;
+  box-shadow: 0px 2px 49.5px -19px rgba(0,0,0,0.17);
+}
 .pt3_2{
     margin-left: 20%;
     margin-right: 20%;
