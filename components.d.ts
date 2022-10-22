@@ -14,7 +14,6 @@ declare module '@vue/runtime-core' {
     ElIconMoreOutline: typeof import('@element-plus/icons-vue')['MoreOutline']
     ElMain: typeof import('element-plus/es')['ElMain']
     ElRow: typeof import('element-plus/es')['ElRow']
-    ElStep: typeof import('element-plus/es')['ElStep']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
