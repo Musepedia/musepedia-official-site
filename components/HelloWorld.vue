@@ -1,16 +1,11 @@
 <template>
     <div>
       <el-row class="textbox1">
-        <h1 style="margin-left:0.3em;">Hello, <img src="/assets/M1.png" width="28" style="vertical-align: middle"/> Musepedia</h1>
-      </el-row>
-
-      <el-row class="textbox1">
-        <h1 style="margin-left:0.3em;">Hello, <img src="/assets/Ginkgo.png" width="108" style="vertical-align: middle"/> </h1>
+        <h1 style="margin-left:0.3em;"> <img src="/assets/M1.png" width="48" style="vertical-align: middle"/> Musepedia</h1>
       </el-row>
 
       <el-row class="textbox2">
-      </el-row>
-      <el-row class="textbox2">
+        Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，在参观博物馆时，您可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，了解展品详细信息，提升游览体验。
       </el-row>
 
       <el-row>
@@ -30,17 +25,16 @@
 
 <style scoped lang="scss">
 .textbox1{
+  font-size: 28px;
   flex:0 0 510px;
   width:  510px;
   height: auto;
-  background-color: #d9d9d9;
   margin-bottom:1.5em;
 }
 .textbox2{
   flex:0 0 250px;
   width:  250px;
   height: 1.5em;
-  background-color: #d9d9d9;
   margin-bottom:1.5em;
 }
 .el-button.is-round {
