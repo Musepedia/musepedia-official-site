@@ -56,7 +56,8 @@
 }
 .container{
   position: relative;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 125.5px;
   background-color: #ffffff;
   text-align: center;

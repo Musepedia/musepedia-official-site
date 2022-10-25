@@ -34,9 +34,9 @@
       <div class="orange_box4"/>
       <div class="orange_box5"/>
 
-      <el-container class="container">
+      <div class="QA_container">
 
-        <el-main class="answer">
+        <el-main style = "width: 40%;">
           <el-row>
             <span class="ask1">狼和狗有什么关系？</span>
           </el-row>
@@ -57,44 +57,48 @@
           <span class="QA_title">问答功能</span>
           <p class="QA_intro">通过在对话框中发送问题，Ginkgo系统会抽取出最佳答案，并针对特定问题给出定制的可视化回答。<br>除此之外，通过“扫⼀扫”功能可以获取更多当前展品的信息</p>
         </el-main>
-        
-      </el-container>
+      </div>
     </div>
+
     <div class="photoShow">
-      <a target="_blank" href="/assets/example1.png">
-        <img src="/assets/example1.png" class="phone">
-      </a>
-      <a target="_blank" href="/assets/example2.png">
-        <img src="/assets/example2.png" class="phone">
-      </a>
-      <a target="_blank" href="/assets/example3.png">
-        <img src="/assets/example3.png" class="phone">
-      </a>
-      <a target="_blank" href="/assets/example4.png">
-        <img src="/assets/example4.png" class="phone">
-      </a>
+      <div class = "photoShow_phone">
+        <a target="_blank" href="/assets/example1.png">
+          <img src="/assets/example1.png" class = "phone">
+        </a>
+        <a target="_blank" href="/assets/example2.png">
+          <img src="/assets/example2.png" class = "phone">
+        </a>
+        <a target="_blank" href="/assets/example3.png">
+          <img src="/assets/example3.png" class = "phone">
+        </a>
+        <a target="_blank" href="/assets/example4.png">
+          <img src="/assets/example4.png" class = "phone">
+        </a>
+      </div>
         <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
-          <span style="font-size:18px;margin-left:108px;">首页</span>
+          <span style="width:18%;"></span>
+          <span style="font-size:18px;">首页</span>
           <hr class="divide">
-          <span style="font-size:18px;margin:0;">搜索</span>
+          <span style="font-size:18px;">搜索</span>
           <hr class="divide">
           <span style="font-size:18px;">提问</span>
           <hr class="divide">
           <span style="font-size:18px;">详情</span>
         </el-row>
-        
     </div>
   
     <div class = "p3container">
         
         <div class = "pt3">
-
-            <div class = "bg1">
-                <!-- 斜杠 -->
-            </div>
+          
+          <div class = "bg1">
+            <!-- 斜杠 -->
+          </div>
+            
             <div class = "pt3_1">
+              
               <div class="orange_box6"/>
-                <div style = "width: 40%; margin-right: 110px; margin-top: 50px;">
+                <div style = "width: 40%; margin-right: 10%; margin-top: 50px;">
                     <h1 style = "text-align: right;font-size:2.7em; font-weight: bold;">推荐提问</h1>
                     <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:32px;">Ginkgo系统能给予用户兴趣以及用户当前的提问推荐相关问题，
                         帮助游客更好的了解产品；推荐提问不仅在问答界面中可以获取，
@@ -102,26 +106,28 @@
                     </p>
                 </div>
                 
-                <div style = "margin-left: 60px">
-                    <img src="../assets/tmp1.png" style="transform: scale(1.2,1.2);border-radius:25px;"/>
+                <div style = "margin-left: 60px ;max-width: 30%;">
+                    <img src="../assets/MapAnswer.png" style="transform: scale(1.2,1.2);border-radius:25px;max-width: 500px;"/>
                 </div>
             </div>
 
             <div class="photoShow">
-              <a target="_blank" href="/assets/example5.png">
-                <img src="/assets/example5.png" class="phone">
-              </a>
-              <a target="_blank" href="/assets/example6.png">
-                <img src="/assets/example6.png" class="phone">
-              </a>
-              <a target="_blank" href="/assets/example7.png">
-                <img src="/assets/example7.png" class="phone">
-              </a>
-              <a target="_blank" href="/assets/example8.png">
-                <img src="/assets/example8.png" class="phone">
-              </a>
+              <div class = "photoShow_phone">
+                <a target="_blank" href="/assets/example5.png">
+                  <img src="/assets/example5.png" class = "phone">
+                </a>
+                <a target="_blank" href="/assets/example6.png">
+                  <img src="/assets/example6.png" class = "phone">
+                </a>
+                <a target="_blank" href="/assets/example7.png">
+                  <img src="/assets/example7.png" class = "phone">
+                </a>
+                <a target="_blank" href="/assets/example8.png">
+                  <img src="/assets/example8.png" class = "phone">
+                </a>
+              </div>
               <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
-                <span style="font-size:18px;margin-left:108px;">首页</span>
+                <span style="font-size:18px;margin-left:18%;">首页</span>
                 <hr class="divide">
                 <span style="font-size:18px;margin:0;">搜索</span>
                 <hr class="divide">
@@ -167,38 +173,23 @@
 
             </div>
 
-            <!-- <div class = "pt3_2">
-                <div id = "info">
-                    <img src = "../assets/tmp2.png"/>
-                    <br>
-                    <span>发现</span>
-                </div>
-                <div id = "info">
-                    <img src = "../assets/tmp2.png"/>
-                    <br>
-                    <span>详情</span>
-                </div>
-                <div id = "info">
-                    <img src = "../assets/tmp2.png"/>
-                    <br>
-                    <span>相关</span>
-                </div>
-            </div> -->
             <div class="photoShow">
-              <a target="_blank" href="/assets/example9.png">
-                <img src="/assets/example9.png" class="phone" style="margin-left:10%;">
-              </a>
-              <a target="_blank" href="/assets/example10.png">
-                <img src="/assets/example10.png" class="phone" style="margin-left:10%;">
-              </a>
-              <a target="_blank" href="/assets/example11.png">
-                <img src="/assets/example11.png" class="phone" style="margin-left:10%;">
-              </a>
+              <div class = "photoShow_phone">
+                <a target="_blank" href="/assets/example9.png">
+                  <img src="/assets/example9.png" class = "phone">
+                </a>
+                <a target="_blank" href="/assets/example10.png">
+                  <img src="/assets/example10.png" class = "phone">
+                </a>
+                <a target="_blank" href="/assets/example11.png">
+                  <img src="/assets/example11.png" class = "phone">
+                </a>
+              </div>
               <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
-                <span style="font-size:18px;margin-left:108px;">发现</span>
-                <hr class="divide" style="width: 28%">
+                <span style="font-size:18px;margin-left:22%;">发现</span>
+                <hr class="divide" style="width: 20%">
                 <span style="font-size:18px;margin:0;">详情</span>
-                <hr class="divide" style="width: 28%">
+                <hr class="divide" style="width: 20%">
                 <span style="font-size:18px;">相关</span>
               </el-row>
             </div>
@@ -217,6 +208,7 @@
 
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;500;700&display=swap');
+
 .all{
   position: relative;
   width:100%;
@@ -340,10 +332,11 @@
   border-radius: 11px;
   box-shadow: 0px 2px 49.5px -19px rgba(0,0,0,0.17);
 }
-.container{
-  padding:0;
-  margin:90px 150px;
-  width: auto;
+.QA_container{
+  position: relative;
+  margin:90px 10%;
+  display: flex;
+  flex-direction: row;
 }
 .M2{
   background: #ffffff;
@@ -414,18 +407,24 @@
 }
 .photoShow{
   position:relative;
-  margin: 0px 200px 80px 200px;
+  margin: 50px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+}
+.photoShow_phone{
+  // position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .phone{
-  position: relative;
-  width: 200px;
-  object-fit: cover;
-  margin-left: 40px;
-  margin-bottom: 5px;
+  max-width: 200px;
 }
 .divide{
    border: 0;
-   width:16%; 
+   width:13.5%; 
    margin-left:25px;
    margin-right:25px;
    margin-top: 13px;
@@ -441,9 +440,9 @@
     position:absolute;
     z-index: 1;
     background: linear-gradient(to left, rgba(255,214,42,0.40) 0%, rgba(255,214,42,0.00) 100%);
-    transform: skewY(20deg);
+    transform: skewY(15deg);
     height:370px;
-    width: 50%;
+    width: 40%;
     margin-left: 50%;
     margin-top: 200px;
     right: 0px;
@@ -452,7 +451,7 @@
 .bg2{
     position:absolute;
     background: linear-gradient(to right, rgba(255,214,42,0.40) 0%, rgba(255,214,42,0.00) 100%);
-    transform: skewY(-20deg);
+    transform: skewY(-15deg);
     height:350px;
     width: 50%;
     margin-right: 50%;

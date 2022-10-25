@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     },
     // css
     css: [
-      "~/assets/scss/index.scss",
+      "~/assets/css/reset.css",
       "element-plus/theme-chalk/index.css"
     ],
     // build
