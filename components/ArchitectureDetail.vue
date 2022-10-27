@@ -19,12 +19,15 @@
 
 <style scoped>
 .detail-title {
+    font-family: 'PingFang SC';
     text-align: center;
     margin-top: 40px;
     font-size: 22px;
     font-weight: bold;
 }
 .detail-text {
+    font-family: 'PingFang SC';
+    line-height: 33px;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 20px;
@@ -34,7 +37,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
     margin-bottom: 40px;
     max-width: 50%;
 }

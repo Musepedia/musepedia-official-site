@@ -8,16 +8,11 @@
       <div class="small_box" style="background:#ff3d00; top:150px; right: 75px;"/>
       <div class="small_box" style="background:#ff3d00; bottom:150px; left: 415px;"/>
       <el-container>
-        <el-main class="main">
-          <el-row>
-            Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
-            在参观博物馆时，您可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，了解展品详细信息，提升游览体验。
-          </el-row>
-        </el-main>
-
-        <el-main class="aside">
-          
-        </el-main>
+        <div style = "margin-top: 20px; line-height: 180%; text-align: left; font-size: 1.2em; width: 50%">
+            <p>&emsp;&emsp;Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
+              在参观博物馆时，您可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，
+              了解展品详细信息，提升游览体验。</p>
+        </div>
       </el-container>
     </div>
 
@@ -491,5 +486,12 @@
     padding: 10px 20px 0px 20px;
     font-weight: 200;
     line-height: 180%;
+}
+.beta-badge {
+  background-color: #ff6839;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 17px;
 }
 </style>

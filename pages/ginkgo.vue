@@ -11,17 +11,23 @@
         <ArchitectureDetail 
         title="Ginkgo是如何获取回答的" 
         text="Ginkgo基于人工智能算法自动分析用户的问题，由经过特别优化的深度学习模型从候选文本中准确地抽取出回答。所有的候选文本均来自入驻Musepedia的博物馆在注册展品时上传的资料，因此所有回答均是可信的。" 
-        fig="/assets/QAArchitecture.png" />
+        :fig="qa" />
     </div>
 </template>
 
 <script>
     import ArchitectureDetail from "../components/ArchitectureDetail.vue";
+    import qa from "../assets/QAArchitecture.png";
 
     export default {
         name: "ginkgo",
         components: {
             ArchitectureDetail
+        },
+        data() {
+            return {
+                qa: qa
+            }
         }
     }
 </script>
@@ -55,6 +61,8 @@
     align-content: center;
 }
 .intro-text {
+    font-family: 'PingFang SC';
+    line-height: 33px;
     font-size: 18px;
     margin-top: 20px;
     margin-left: 30%;
