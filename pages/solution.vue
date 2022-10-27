@@ -10,7 +10,8 @@
       <el-container>
         <el-main class="main">
           <el-row>
-            Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，在参观博物馆时，您可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，了解展品详细信息，提升游览体验。
+            Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
+            在参观博物馆时，您可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，了解展品详细信息，提升游览体验。
           </el-row>
         </el-main>
 
@@ -36,7 +37,7 @@
             <span class="answer1">在生物学上与狗为同一种类</span>
           </el-row>
           <el-row>
-            <span class="ask1" style="width:155px;margin-left: 380px;margin-top: 40px;">大白鲨长什么样？</span>
+            <span class="ask1" style="width:fit-content;margin-left: 380px;margin-top: 40px;">大白鲨长什么样？</span>
           </el-row>
           <el-row>
             <img src="/assets/M2.png" width="50" style="position:absolute;" class="M2"/>  
@@ -46,31 +47,26 @@
 
         <el-main class="example">
           <span class="QA_title">问答功能</span>
-          <p class="QA_intro">通过在对话框中发送问题，Ginkgo系统会抽取出最佳答案，并针对特定问题给出定制的可视化回答。</p>
+          <p class="QA_intro">通过在对话框中发送问题,Ginkgo系统会抽取出最佳答案,并针对特定问题给出定制的可视化回答。
+            除此之外，通过“扫⼀扫”功能可以获取更多当前展品的信息。</p>
         </el-main>
       </div>
     </div>
 
     <div class="photoShow">
       <div class = "photoShow_phone">
-        <div >
           <img src="/assets/home.png" class = "phone">
-        </div>
-        <div>
           <img src="/assets/qa.png" class = "phone">
-        </div>
-        <div>
           <img src="/assets/recommendation.png" class = "phone">
-        </div>
       </div>
-        <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
-          <span style="width:18%;"></span>
-          <span style="font-size:18px;">首页</span>
-          <hr class="divide">
-          <span style="font-size:18px;">提问</span>
-          <hr class="divide">
-          <span style="font-size:18px;">详情</span>
-        </el-row>
+      <el-row style="margin-top: 23px;">
+        <span style="width:18%;"></span>
+        <span style="font-size:1.3em;">首页</span>
+        <hr class="divide">
+        <span style="font-size:1.3em;">提问</span>
+        <hr class="divide">
+        <span style="font-size:1.3em;">详情</span>
+      </el-row>
     </div>
   
     <div class = "p3container">
@@ -85,8 +81,9 @@
               
               <div class="orange_box6"/>
                 <div style = "width: 40%; margin-right: 10%; margin-top: 50px;">
-                    <h1 style = "text-align: right;font-size:2.7em; font-weight: bold;">推荐提问</h1>
-                    <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:32px;">Ginkgo系统能给予用户兴趣以及用户当前的提问推荐相关问题，
+                    <!-- <h1 style = "text-align: right;font-size:2.7em; font-weight: bold;">推荐提问</h1> -->
+                    <span class="QA_title" style = "text-align: right; margin-bottom: 50px; margin-top: 150px;">推荐提问</span>
+                    <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:200%; font-size: 1.2em">Ginkgo系统能给予用户兴趣以及用户当前的提问推荐相关问题，
                         帮助游客更好的了解产品；推荐提问不仅在问答界面中可以获取，
                         在主页中也有推荐，游客可以直接学习
                     </p>
@@ -99,54 +96,53 @@
 
             <div class="photoShow">
               <div class = "photoShow_phone">
-                <div>
                   <img src="/assets/questionare.png" class = "phone">
-                </div>
-                <div>
                   <img src="/assets/recommendation.png" class = "phone">
-                </div>
-                <div>
                   <img src="/assets/user.png" class = "phone">
-                </div>
               </div>
-              <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
-                <span style="font-size:18px;margin-left:18%;">问卷</span>
+              <el-row style="margin-top: 23px;">
+                <span style="width:18%;"></span>
+                <span style="font-size:1.3em;">问卷</span>
                 <hr class="divide">
-                <span style="font-size:18px;margin:0;">推荐</span>
+                <span style="font-size:1.3em;">推荐</span>
                 <hr class="divide">
-                <span style="font-size:18px;">个人</span>
+                <span style="font-size:1.3em;">个人</span>
               </el-row>
             </div>
         </div>
 
         <div class = "pt3">
             
-            <div class = "bg2"/>
+            <div class = "bg2">
                 <!-- 斜杠 -->
-            
-            
-            <div style="position:absolute;z-index: 3; left: 12%; margin-top: 260px;">
-              <img src="../assets/ginkgo1.png" style="width: 95%;height: 95%;border-radius: 20px;"/>
-            </div>
-            <div style="position:absolute;z-index: 3; left: 34%; margin-top: 250px;">
-              <img src="../assets/ginkgo2.png" style="width: 70%;height: 70%;border-radius: 20px;"/>
-            </div>
-            <div style="position:absolute;z-index: 3; left: 45%; margin-top: 290px;border-radius: 20px;">
-              <img src="../assets/ginkgo3.png"/>
             </div>
 
             <div class = "pt3_1">
 
                 <div class = "textbox">
-                    <span style="font-size:30px; font-weight: bold; line-height: 50px;">银杏</span>
+                    <span style="font-size:2em; font-weight: 700; line-height: 50px;">银杏</span>
                     <br/> 
-                    <span>银杏（学名：Ginkgo biloba），落叶乔木，寿命可达3000年以上。又名公孙树、鸭掌树、鸭脚树、鸭脚子等，其裸露的种子称为白果，叶称蒲扇。属裸子植物银杏门惟一现存物种，和它同门的所有其他物种都已灭绝，因此被称为植物界的“活化石”。已发现的化石可以追溯到2.7亿年前。银杏原产于中国，现广泛种植于全世界，并被早期引入人类历史。它有多种用途，可作为传统医学用途和食物。
+                    <span>&emsp;银杏（学名：Ginkgo biloba），落叶乔木，寿命可达3000年以上。又名公孙树、鸭掌树、鸭脚树、鸭脚子等，其裸露的种子称为白果，叶称蒲扇。
+                      属裸子植物银杏门惟一现存物种，和它同门的所有其他物种都已灭绝，因此被称为植物界的“活化石”。
+                      已发现的化石可以追溯到2.7亿年前。银杏原产于中国，现广泛种植于全世界，并被早期引入人类历史。它有多种用途，可作为传统医学用途和食物。
                     </span>
+
+                    <div style="position:absolute;z-index: 3; left: 10%; margin-top: 10px;">
+                      <img src="../assets/ginkgo1.png" style="width: 95%;height: 95%;border-radius: 20px;"/>
+                    </div>
+                    <div style="position:absolute;z-index: 3; left: 31%; margin-top: -10px">
+                      <img src="../assets/ginkgo2.png" style="width: 70%;height: 70%;border-radius: 20px;"/>
+                    </div>
+                    <div style="position:absolute;z-index: 3; left: 41%; margin-top: 30px;">
+                      <img src="../assets/ginkgo3.png" style = "border-radius: 20px;"/>
+                    </div>
+
                 </div>
 
                 <div style = "margin-left: 50px; margin-top: 50px;">
-                    <h1 style = "text-align: left;font-size:2.7em; font-weight: bold;">发现更多</h1>
-                    <p style = "text-align: left; margin-right: 200px; max-width: 300px;line-height:32px;">根据不同⽤户的提问，展示当前热⻔展品及其相关的提问，
+                    <!-- <h1 style = "text-align: left;font-size:2.7em; font-weight: bold;">发现更多</h1> -->
+                    <span class="QA_title" style = "text-align: left; margin-bottom: 50px; margin-top: 100px;">推荐提问</span>
+                    <p style = "text-align: left;max-width: 300px;line-height:200%; font-size: 1.2em">根据不同⽤户的提问，展示当前热⻔展品及其相关的提问，
                         ⽤户可以点击感兴趣的展品了解详情，并浏览相关的热⻔问题及回答
                     </p>
                 </div>
@@ -155,22 +151,17 @@
 
             <div class="photoShow">
               <div class = "photoShow_phone">
-                <div>
                   <img src="/assets/explore.png" class = "phone">
-                </div>
-                <div>
                   <img src="/assets/explore-detail.png" class = "phone">
-                </div>
-                <div>
                   <img src="/assets/explore-question.png" class = "phone">
-                </div>
               </div>
-              <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
-                <span style="font-size:18px;margin-left:22%;">发现</span>
-                <hr class="divide" style="width: 20%">
-                <span style="font-size:18px;margin:0;">详情</span>
-                <hr class="divide" style="width: 20%">
-                <span style="font-size:18px;">相关</span>
+              <el-row style="margin-top: 23px;">
+                <span style="width:18%;"></span>
+                <span style="font-size:1.3em;">发现</span>
+                <hr class="divide">
+                <span style="font-size:1.3em;">详情</span>
+                <hr class="divide">
+                <span style="font-size:1.3em;">相关</span>
               </el-row>
             </div>
 
@@ -195,6 +186,7 @@
   height:auto;
   background: rgba(255,104,57,0.09);
   margin:0%;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 .intro{
   position: relative;
@@ -370,7 +362,7 @@
 .QA_title{
   position:relative;
   display: block;
-  font-size: 2.7em;
+  font-size: 3em;
   font-weight: bold;
   padding: 0;
   margin-top: 190px;
@@ -379,11 +371,13 @@
   position: absolute;
   margin-top: 40px;
   inline-size: 44%;
-  line-height: 32px;
+  line-height: 200%;
+  font-size: 1.2em;
   font-weight: 500;
   font-family: 'Noto Sans SC', sans-serif;
   letter-spacing: 0.1px;
   word-wrap: break-word;
+  padding-right: 10%;
 }
 .photoShow{
   position:relative;
@@ -396,15 +390,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .phone{
-  max-width: 200px;
+  width: 20%;
 }
 .divide{
    border: 0;
-   width:13.5%; 
+   width:24%; 
    margin-left:25px;
    margin-right:25px;
    margin-top: 13px;
@@ -491,11 +485,11 @@
     background: #ffffff;
     border-radius: 20px;
     width: 30%;
-    height: 220px;
+    height: fit-content + 20px;
     font-family: 'Noto Sans SC', sans-serif;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1em;
     padding: 10px 20px 0px 20px;
-    font-weight: 400;
+    font-weight: 200;
+    line-height: 180%;
 }
 </style>

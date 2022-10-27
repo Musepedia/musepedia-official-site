@@ -49,6 +49,9 @@
 </script>
 
 <style scoped lang="scss">
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;500;700&display=swap');
+
 .body-class{
   height:100%;
   margin:0;
@@ -62,6 +65,7 @@
   background-color: #ffffff;
   text-align: center;
   line-height: 70px;
+  font-family: 'Noto Sans SC', sans-serif;
   &:last-child {
       margin-bottom: 0;
     }
@@ -96,7 +100,7 @@ a:visited {
   padding-bottom: 6px;
 }
 .info{
-  font-family: 'PingFang SC';
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 15px;
   text-align: center;
   justify-content: center;
