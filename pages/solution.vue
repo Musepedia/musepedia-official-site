@@ -9,17 +9,8 @@
       <div class="small_box" style="background:#ff3d00; bottom:150px; left: 415px;"/>
       <el-container>
         <el-main class="main">
-          <el-row class="photobox">
-          </el-row>
-          <el-row class="textbox2">
-          </el-row>
-          <el-row class="textbox2">
-          </el-row>
-          <el-row class="textbox2">
-          </el-row>
-          <el-row class="textbox2" style="width: 250px;">
-          </el-row>
-          <el-row class="textbox3">
+          <el-row>
+            Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，在参观博物馆时，您可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，了解展品详细信息，提升游览体验。
           </el-row>
         </el-main>
 
@@ -55,31 +46,26 @@
 
         <el-main class="example">
           <span class="QA_title">问答功能</span>
-          <p class="QA_intro">通过在对话框中发送问题，Ginkgo系统会抽取出最佳答案，并针对特定问题给出定制的可视化回答。<br>除此之外，通过“扫⼀扫”功能可以获取更多当前展品的信息</p>
+          <p class="QA_intro">通过在对话框中发送问题，Ginkgo系统会抽取出最佳答案，并针对特定问题给出定制的可视化回答。</p>
         </el-main>
       </div>
     </div>
 
     <div class="photoShow">
       <div class = "photoShow_phone">
-        <a target="_blank" href="/assets/example1.png">
-          <img src="/assets/example1.png" class = "phone">
-        </a>
-        <a target="_blank" href="/assets/example2.png">
-          <img src="/assets/example2.png" class = "phone">
-        </a>
-        <a target="_blank" href="/assets/example3.png">
-          <img src="/assets/example3.png" class = "phone">
-        </a>
-        <a target="_blank" href="/assets/example4.png">
-          <img src="/assets/example4.png" class = "phone">
-        </a>
+        <div >
+          <img src="/assets/home.png" class = "phone">
+        </div>
+        <div>
+          <img src="/assets/qa.png" class = "phone">
+        </div>
+        <div>
+          <img src="/assets/recommendation.png" class = "phone">
+        </div>
       </div>
         <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
           <span style="width:18%;"></span>
           <span style="font-size:18px;">首页</span>
-          <hr class="divide">
-          <span style="font-size:18px;">搜索</span>
           <hr class="divide">
           <span style="font-size:18px;">提问</span>
           <hr class="divide">
@@ -113,27 +99,22 @@
 
             <div class="photoShow">
               <div class = "photoShow_phone">
-                <a target="_blank" href="/assets/example5.png">
-                  <img src="/assets/example5.png" class = "phone">
-                </a>
-                <a target="_blank" href="/assets/example6.png">
-                  <img src="/assets/example6.png" class = "phone">
-                </a>
-                <a target="_blank" href="/assets/example7.png">
-                  <img src="/assets/example7.png" class = "phone">
-                </a>
-                <a target="_blank" href="/assets/example8.png">
-                  <img src="/assets/example8.png" class = "phone">
-                </a>
+                <div>
+                  <img src="/assets/questionare.png" class = "phone">
+                </div>
+                <div>
+                  <img src="/assets/recommendation.png" class = "phone">
+                </div>
+                <div>
+                  <img src="/assets/user.png" class = "phone">
+                </div>
               </div>
               <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
-                <span style="font-size:18px;margin-left:18%;">首页</span>
+                <span style="font-size:18px;margin-left:18%;">问卷</span>
                 <hr class="divide">
-                <span style="font-size:18px;margin:0;">搜索</span>
+                <span style="font-size:18px;margin:0;">推荐</span>
                 <hr class="divide">
-                <span style="font-size:18px;">提问</span>
-                <hr class="divide">
-                <span style="font-size:18px;">详情</span>
+                <span style="font-size:18px;">个人</span>
               </el-row>
             </div>
         </div>
@@ -159,8 +140,7 @@
                 <div class = "textbox">
                     <span style="font-size:30px; font-weight: bold; line-height: 50px;">银杏</span>
                     <br/> 
-                    <span>杏（学名：Ginkgo biloba），落叶乔木，寿命可达3000年以上。
-                      又名公孙树、鸭掌树、鸭脚树、鸭脚子等[4]，其裸露的种子称为白果，叶称蒲扇[5]。
+                    <span>银杏（学名：Ginkgo biloba），落叶乔木，寿命可达3000年以上。又名公孙树、鸭掌树、鸭脚树、鸭脚子等，其裸露的种子称为白果，叶称蒲扇。属裸子植物银杏门惟一现存物种，和它同门的所有其他物种都已灭绝，因此被称为植物界的“活化石”。已发现的化石可以追溯到2.7亿年前。银杏原产于中国，现广泛种植于全世界，并被早期引入人类历史。它有多种用途，可作为传统医学用途和食物。
                     </span>
                 </div>
 
@@ -175,15 +155,15 @@
 
             <div class="photoShow">
               <div class = "photoShow_phone">
-                <a target="_blank" href="/assets/example9.png">
-                  <img src="/assets/example9.png" class = "phone">
-                </a>
-                <a target="_blank" href="/assets/example10.png">
-                  <img src="/assets/example10.png" class = "phone">
-                </a>
-                <a target="_blank" href="/assets/example11.png">
-                  <img src="/assets/example11.png" class = "phone">
-                </a>
+                <div>
+                  <img src="/assets/explore.png" class = "phone">
+                </div>
+                <div>
+                  <img src="/assets/explore-detail.png" class = "phone">
+                </div>
+                <div>
+                  <img src="/assets/explore-question.png" class = "phone">
+                </div>
               </div>
               <el-row style="margin-top: 23px;font-family:'Noto Sans SC', sans-serif;">
                 <span style="font-size:18px;margin-left:22%;">发现</span>

@@ -29,7 +29,7 @@
 <style scoped>
 .intro-background {
     background: linear-gradient(270deg,#ff6839 0%, rgba(255,234,40,0.70) 100%);
-    height: 392.5px;
+    min-height: 392.5px;
 }
 .left {
     position: absolute;
