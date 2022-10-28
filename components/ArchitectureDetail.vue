@@ -27,11 +27,11 @@
 }
 .detail-text {
     font-family: 'PingFang SC';
-    line-height: 33px;
+    line-height: 180%;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 1em;
 }
 .detail-fig {
     display: block;
