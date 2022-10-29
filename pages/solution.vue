@@ -7,8 +7,8 @@
       <div class="small_box" style="background:#fff426; top:170px; left: 85px;"/>
       <div class="small_box" style="background:#ff3d00; top:150px; right: 75px;"/>
       <div class="small_box" style="background:#ff3d00; bottom:150px; left: 415px;"/>
-      <el-container>
-        <div style = "margin-top: 20px; line-height: 180%; text-align: left; font-size: 1.2em; width: 50%">
+      <el-container style = "margin-top: 10%;">
+        <div style = "margin-top: 20px; line-height: 180%; text-align: left; font-size: 1.2em; width: 50%; height: auto">
             <p>&emsp;&emsp;Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
               在参观博物馆时，游客可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，
               了解展品详细信息，提升游览体验。</p>
@@ -44,23 +44,23 @@
         </el-main> -->
 
         <div class = "QA_content">
-          <div style = "margin:5px 0;">
+          <div style = "margin:10px 0;">
             <span class = "ask">
               狼和狗有什么关系？
             </span>
           </div>
-          <div style = " margin:5px 0;">
+          <div style = " margin:10px 0;">
             <img src="/assets/M2.png" class = "M2" style = "vertical-align: middle;"/>
             <span class = "answer" style = "vertical-align: middle;">
               在生物学上与狗为同一种类
             </span>
           </div>
-          <div style = "margin:5px 0;">
+          <div style = "margin:10px 0;">
             <span class = "ask">
               大白鲨长什么样？
             </span>
           </div>
-          <div style = "margin:5px 0; vertical-align: top;">
+          <div style = "margin:10px 0; vertical-align: top;">
             <img src="/assets/M2.png" class = "M2" style = "vertical-align: top;"/>  
             <img src="/assets/WhiteShark.png" style = "width: 80%;"/>
           </div>
@@ -293,7 +293,8 @@
 .QA{
   position: relative;
   width:100%;
-  height:700px;
+  height: auto;
+  margin-bottom: 300px;
 }
 .yellow_box1{
   position: absolute;
