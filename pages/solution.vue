@@ -7,12 +7,15 @@
       <div class="small_box" style="background:#fff426; top:170px; left: 85px;"/>
       <div class="small_box" style="background:#ff3d00; top:150px; right: 75px;"/>
       <div class="small_box" style="background:#ff3d00; bottom:150px; left: 415px;"/>
-      <div style = "margin-left: 15%; margin-right:60%; padding-top: 15%; font-size: 1.2em; line-height: 200%;">
-        <span style = "color: whitesmoke">
-            &emsp;&emsp;Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
-            在参观博物馆时，您可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，了解展品详细信息，提升游览体验。
-        </span>
-      </div>
+      <el-container>
+        <div style = "margin-top: 20px; line-height: 180%; text-align: left; font-size: 1.2em; width: 50%">
+            <p>&emsp;&emsp;Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
+              在参观博物馆时，游客可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，
+              了解展品详细信息，提升游览体验。</p>
+            <p>&emsp;&emsp;Musepedia还为馆方提供基于Ginkgo系统的数据分析技术支持，在热门展品及热点问题发掘、展品资料设置、用户画像构建与特展设计等方面提供有大数据支撑的指导建议。</p>
+            <p>&emsp;&emsp;Musepedia同时也为馆方提供建设文创产品设计——推广体系的服务，包括从打造具有博物馆特色的文创IP，到定制化设计产品，再到文创产品的最终交付与基于Ginkgo系统推广的全部环节。</p>
+        </div>
+      </el-container>
     </div>
 
     <div class="QA">
@@ -63,10 +66,9 @@
           </div>
         </div>
 
-        <el-main>  
-          <span class="QA_title">问答功能</span>
-          <span class="QA_intro">通过在对话框中发送问题,Ginkgo系统会抽取出最佳答案,并针对特定问题给出定制的可视化回答。
-              除此之外，通过“扫⼀扫”功能可以获取更多当前展品的信息。</span>
+        <el-main class = "example">  
+          <span class="QA_title">问答</span>
+          <p class="QA_intro">通过在对话框中发送问题,Ginkgo系统会抽取出最佳答案,并针对特定问题给出定制的可视化回答。</p>
         </el-main>
       </div>
     </div>
@@ -100,10 +102,9 @@
               <div class="orange_box6"/>
                 <div style = "width: 40%; margin-right: 10%; margin-top: 50px;">
                     <!-- <h1 style = "text-align: right;font-size:2.7em; font-weight: bold;">推荐提问</h1> -->
-                    <span class="QA_title" style = "text-align: right; margin-bottom: 50px; margin-top: 150px;">推荐提问</span>
-                    <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:200%; font-size: 1.2em">Ginkgo系统能给予用户兴趣以及用户当前的提问推荐相关问题，
-                        帮助游客更好的了解产品；推荐提问不仅在问答界面中可以获取，
-                        在主页中也有推荐，游客可以直接学习
+                    <span class="QA_title" style = "text-align: right; margin-bottom: 50px; margin-top: 150px;">推荐</span>
+                    <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:200%; font-size: 1.2em">Ginkgo系统会结合用户兴趣与当前的提问等因素推荐相关问题，
+                        帮助游客更好地了解展品。除此之外，Ginkgo系统会结合用户兴趣与当前位置等因素，在合适的时间推荐接下来建议前往的展区，帮助游客更好地规划游览路线。
                     </p>
                 </div>
                 
@@ -159,9 +160,9 @@
 
                 <div style = "margin-left: 50px; margin-top: 50px;">
                     <!-- <h1 style = "text-align: left;font-size:2.7em; font-weight: bold;">发现更多</h1> -->
-                    <span class="QA_title" style = "text-align: left; margin-bottom: 50px; margin-top: 100px;">推荐提问</span>
-                    <p style = "text-align: left;max-width: 300px;line-height:200%; font-size: 1.2em">根据不同⽤户的提问，展示当前热⻔展品及其相关的提问，
-                        ⽤户可以点击感兴趣的展品了解详情，并浏览相关的热⻔问题及回答
+                    <span class="QA_title" style = "text-align: left; margin-bottom: 50px; margin-top: 100px;">发现</span>
+                    <p style = "text-align: left;max-width: 300px;line-height:200%; font-size: 1.2em;">
+                      根据不同⽤户的提问，展示当前热⻔展品及其相关的提问，⽤户可以点击展品了解详情，并浏览相关的热⻔问题及回答，从而更深入地了解感兴趣的展品。
                     </p>
                 </div>
 
@@ -505,5 +506,12 @@
     padding: 10px 20px 0px 20px;
     font-weight: 200;
     line-height: 180%;
+}
+.beta-badge {
+  background-color: #ff6839;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 17px;
 }
 </style>
