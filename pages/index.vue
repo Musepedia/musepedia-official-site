@@ -3,7 +3,7 @@
       <div class = "container">
         <div class = "left">
           <div style = "align-items: center;">
-            <img src = "../assets/M1.png" style = "width: 15%;"/>
+            <img src = "../assets/M1.png" style = "width:35px;"/>
             <span style = "margin-left: 5%; font-size:2.5em; font-weight: 700;">Musepedia</span>
           </div>
 
@@ -20,27 +20,12 @@
           </div>
         </div>
         
-        <div style = "">
-          <img src = "../assets/ReadingPeople.png" style = "width: 60%;"/>
+        <div style = "width: 50%; margin-right: 5%;">
+          <img src = "../assets/ReadingPeople.png" style = "width: 100%;"/>
         </div>
       </div>
     </div>
 </template>
-
-<!-- <script>
-    import HelloWorld from "../components/HelloWorld";
-    export default {
-        name: "index",
-        components: {HelloWorld},
-        
-      created() {
-        if (typeof window !== 'undefined') {
-          var percentageOn1 = (window.screen.width / 1920)*100;
-          document.body.style.zoom = percentageOn1+'%';
-        }
-      }
-    };
-</script> -->
 
 <style scoped>
 
@@ -59,11 +44,11 @@
 .left{
   display: flex;
   flex-direction: column;
-  padding-left: 15%;
+  padding-left: 10%;
   padding-top: 200px;
   font-family: 'Noto Sans SC', sans-serif;
   width: 50%;
-  margin-right: 10%;
+  margin-right: 5%;
   /* text-align: center; */
 }
 .button{

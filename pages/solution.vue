@@ -7,28 +7,23 @@
       <div class="small_box" style="background:#fff426; top:170px; left: 85px;"/>
       <div class="small_box" style="background:#ff3d00; top:150px; right: 75px;"/>
       <div class="small_box" style="background:#ff3d00; bottom:150px; left: 415px;"/>
-      <el-container>
-        <el-main class="main">
-          <el-row>
-            Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
+      <div style = "margin-left: 15%; margin-right:60%; padding-top: 15%; font-size: 1.2em; line-height: 200%;">
+        <span style = "color: whitesmoke">
+            &emsp;&emsp;Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
             在参观博物馆时，您可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，了解展品详细信息，提升游览体验。
-          </el-row>
-        </el-main>
-
-        <el-main class="aside">
-          
-        </el-main>
-      </el-container>
+        </span>
+      </div>
     </div>
 
     <div class="QA">
+
       <div class="yellow_box1"/>
       <div class="orange_box4"/>
       <div class="orange_box5"/>
 
       <div class="QA_container">
 
-        <el-main style = "width: 40%;">
+        <!-- <el-main style = "width: 40%;">
           <el-row>
             <span class="ask1">狼和狗有什么关系？</span>
           </el-row>
@@ -43,12 +38,35 @@
             <img src="/assets/M2.png" width="50" style="position:absolute;" class="M2"/>  
           </el-row>
           <img src="/assets/WhiteShark.png" class="answer2">
-        </el-main>
+        </el-main> -->
 
-        <el-main class="example">
+        <div class = "QA_content">
+          <div style = "margin:5px 0;">
+            <span class = "ask">
+              狼和狗有什么关系？
+            </span>
+          </div>
+          <div style = " margin:5px 0;">
+            <img src="/assets/M2.png" class = "M2" style = "vertical-align: middle;"/>
+            <span class = "answer" style = "vertical-align: middle;">
+              在生物学上与狗为同一种类
+            </span>
+          </div>
+          <div style = "margin:5px 0;">
+            <span class = "ask">
+              大白鲨长什么样？
+            </span>
+          </div>
+          <div style = "margin:5px 0; vertical-align: top;">
+            <img src="/assets/M2.png" class = "M2" style = "vertical-align: top;"/>  
+            <img src="/assets/WhiteShark.png" style = "width: 80%;"/>
+          </div>
+        </div>
+
+        <el-main>  
           <span class="QA_title">问答功能</span>
-          <p class="QA_intro">通过在对话框中发送问题,Ginkgo系统会抽取出最佳答案,并针对特定问题给出定制的可视化回答。
-            除此之外，通过“扫⼀扫”功能可以获取更多当前展品的信息。</p>
+          <span class="QA_intro">通过在对话框中发送问题,Ginkgo系统会抽取出最佳答案,并针对特定问题给出定制的可视化回答。
+              除此之外，通过“扫⼀扫”功能可以获取更多当前展品的信息。</span>
         </el-main>
       </div>
     </div>
@@ -196,6 +214,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
 }
 .orange_box1{
+  z-index: -1;
   position: absolute;
   width: 30%;
   height: 80%;
@@ -295,7 +314,6 @@
 }
 .orange_box5{
   position: absolute;
-  z-index: 100;
   top: 445px;
   margin-left:14%;
   width: 65px;
@@ -306,59 +324,54 @@
 }
 .QA_container{
   position: relative;
-  margin:90px 10%;
+  margin:90px 0;
   display: flex;
   flex-direction: row;
 }
+.QA_content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 10%;
+  margin-right: 5%;
+}
 .M2{
   background: #ffffff;
-  height:auto;
-  border-radius: 50px;
+  width: 10%;
+  border-radius:50%;
   box-shadow: 0px 2px 23px -11.5px #000000;
-  margin-top: 10px;
+  margin-right: 3%;
 }
-.ask1{
+.ask{
   background-color: #ff6839;
   border-radius: 29.5px;
-  box-shadow: 0px 2px 49.5px -19px rgba(0,0,0,0.17);
   color: #ffffff;
-  margin-inline-end: 20px;
-  margin-top: auto;
-  margin-left: 335px;
-  text-align: left;
-  height: 40px;
-  width: 200px;
-  line-height: 40px;
-  font-family: 'Noto Sans SC', sans-serif;
+  // margin-inline-end: 20px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  width: fit-content;
   font-weight: bold;
   font-size: 1.1em;  
-  padding-inline-start: 20px;
+  padding-inline-start: 10px;
+  float: right;
 }
-.answer1{
-  display:inline;
+.answer{
   background-color: #ffffff;
   border-radius: 29.5px;
-  box-shadow: 0px 2px 49.5px -19px rgba(0,0,0,0.17);
-  margin-inline-start: 20px;
-  margin-top: auto;
   color: #000000;
-  text-align: left;
-  height: 40px;
-  width: 300px;
-  line-height: 40px;
-  font-family: 'Noto Sans SC', sans-serif;
+  text-align: center;
   font-weight: bold;
   font-size: 1.1em;  
   padding-inline-start: 20px;
-  word-wrap:break-word
+  height: 30px;
+  line-height: 30px;
+  width: fit-content;
+  padding-inline-end: 10px;
+  padding-inline-start: 10px;
+  // display: inline-block;
 }
-.answer2{
-  border-radius: 28px;
-  max-width: 55%;
-  margin-left: 70px;
-  margin-top: 20px;
-}
-
 .QA_title{
   position:relative;
   display: block;
@@ -395,6 +408,7 @@
 }
 .phone{
   width: 20%;
+  height: 20%;
 }
 .divide{
    border: 0;
