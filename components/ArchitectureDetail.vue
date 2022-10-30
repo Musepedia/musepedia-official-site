@@ -19,14 +19,14 @@
 
 <style scoped>
 .detail-title {
-    font-family: 'PingFang SC';
+    font-family: 'Noto Sans SC', sans-serif;
     text-align: center;
     margin-top: 40px;
     font-size: 22px;
     font-weight: bold;
 }
 .detail-text {
-    font-family: 'PingFang SC';
+    font-family: 'Noto Sans SC', sans-serif;
     line-height: 180%;
     margin-left: 15%;
     margin-right: 15%;

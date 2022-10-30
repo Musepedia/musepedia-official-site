@@ -40,9 +40,11 @@
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;500;700&display=swap');
 .intro-background {
     background: linear-gradient(270deg,#ff6839 0%, rgba(255,234,40,0.70) 100%);
     min-height: 392.5px;
+    font-family: 'Noto Sans SC', sans-serif;
 }
 .left {
     position: absolute;

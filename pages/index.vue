@@ -2,8 +2,8 @@
     <div class="bg">
       <div class = "container">
         <div class = "left">
-          <div style = "align-items: center;">
-            <img src = "../assets/M1.png" style = "width:35px;"/>
+          <div style = "align-items: center; text-align: center;">
+            <img src = "../assets/M1.png" style = "width:3em"/>
             <span style = "margin-left: 5%; font-size:2.5em; font-weight: 700;">Musepedia</span>
           </div>
 
@@ -13,14 +13,19 @@
               了解展品详细信息，提升游览体验。</p>
           </div>
 
-          <div style = "margin-top: 150px; margin-bottom: 300px;
-                width: fit-content; padding-block-start: 20px; padding-block-end: 20px;">
-            <NuxtLink to="/solution">
-              <button class = "button" style = "cursor: pointer;">关于我们</button>
-            </NuxtLink>
+          <div class = "buttons">
+            <div>
+              <NuxtLink to="/solution">
+                <button class = "button" style = "cursor: pointer;">产品介绍</button>
+              </NuxtLink>
+            </div>
+            <div>
+              <a href = "mailto:mimiter@mimiter.com">
+                <button class = "button" style = "cursor: pointer;">联系我们</button>
+              </a>
+            </div>
           </div>
         </div>
-        
         <div style = "width: 50%; margin-right: 5%;">
           <img src = "../assets/ReadingPeople.png" style = "width: 100%;"/>
         </div>
@@ -52,6 +57,15 @@
   margin-right: 5%;
   /* text-align: center; */
 }
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 120px;
+  margin-bottom: 300px;
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+}
 .button{
   border-radius: 94.5px;
   width:160px;
@@ -64,32 +78,5 @@
   font-weight: 500;
   letter-spacing: 0.18em;
   z-index: 0;
-}
-.main{
-  margin-top: 77px;
-}
-.aside{
-  margin-top:77px;
-}
-.aside.bgphoto{
-  margin-top: 45px;
-  margin-bottom: 0;
-  margin-left: 30px;
-  width:auto;
-  height:auto;
-  float:right;
-  transform: scale(0.75,0.75);
-}
-.el-footer{
-  width:100%;
-  background-color: #fff1ed;
-  height: auto;
-}
-.info{
-  font-family: 'PingFang SC';
-  text-align: center;
-  justify-content: center;
-  line-height: 33px;
-  margin-top:0.3em;
 }
 </style>
