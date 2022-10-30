@@ -3,7 +3,7 @@
         <div class="intro-background">
             <div class="left">
                 <img src="/assets/Ginkgo.png" class="logo"/>
-                <div class="intro-text">Ginkgo系统是我们为博物馆导览自主研发和设计的多场景端到端解决方案，能为Musepedia提供导览服务的同时，也为博物馆提供数据分析的技术支持。</div>
+                <div class="intro-text">&emsp;&emsp;Ginkgo系统是我们为博物馆导览自主研发和设计的多场景端到端解决方案，能为Musepedia提供导览服务的同时，也为博物馆提供数据分析的技术支持。</div>
             </div>
             <img src="/assets/DataAnalysis.png" class="background-figure right"/>
         </div>

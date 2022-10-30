@@ -175,7 +175,9 @@
             
             <div class = "pt3_1">
                 <div style = "width: 40%; margin-right: 10%; margin-top: 50px;">
-                    <span class="QA_title" style = "text-align: right; margin-bottom: 50px; margin-top: 60px;">数据分析</span>
+                    <span class="QA_title" style = "text-align: right; margin-bottom: 50px; margin-top: 60px;">
+                      <span class="beta-badge" style="">Beta</span>数据分析
+                    </span>
                     <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:200%; font-size: 1.2em">
                       Ginkgo系统会记录并分析用户的产品使用行为，从“用户”、“展品”与“推广”等多个维度，为博物馆在构建用户画像，发掘热门展品，改进部分展品的资料设置等方面提供指导建议。Ginkgo系统的数据分析技术能助力博物馆更好地了解游客需求，从而提升游客的游览体验。
                     </p>
@@ -200,7 +202,9 @@
                 </div>
 
                 <div style = "margin: 50px 10% 0 10%;">
-                    <span class="QA_title" style = "text-align: left; margin-bottom: 50px; margin-top: 60px; margin-right: 200px">文创产品设计——推广</span>
+                    <span class="QA_title" style = "text-align: left; margin-bottom: 50px; margin-top: 60px; margin-right: 100px">
+                      文创产品设计——推广<span class="beta-badge">Beta</span>
+                    </span>
                     <p style = "text-align: left;line-height:200%; font-size: 1.2em;">
                       Musepedia为博物馆提供构建文创产品设计——推广体系的服务，从文创IP的诞生，到文创产品的交付，Musepedia团队把关全流程的每一个环节，为博物馆打造具有特色的文创产品。除此之外，Ginkgo系统能基于推荐算法，按不同策略向用户推广博物馆与文创产品。
                     </p>
@@ -540,5 +544,11 @@
   padding: 4px 8px;
   text-align: center;
   border-radius: 17px;
+  width: 60px;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 </style>
