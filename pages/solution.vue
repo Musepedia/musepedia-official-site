@@ -6,9 +6,9 @@
       <div class="orange_box3"/>
       <div class="small_box" style="background:#fff426; top:170px; left: 85px;"/>
       <div class="small_box" style="background:#ff3d00; top:150px; right: 75px;"/>
-      <div class="small_box" style="background:#ff3d00; bottom:150px; left: 415px;"/>
+      <div class="small_box" style="background:#f1502e; bottom:150px; left: 415px;"/>
       <el-container style = "margin-top: 10%;">
-        <div style = "margin-top: 20px; line-height: 180%; text-align: left; font-size: 1.2em; width: 50%; height: auto">
+        <div style = "margin-top: 15px; line-height: 180%; text-align: left; font-size: 1.2em; width: 50%; height: auto; color: #ffffff">
             <p>&emsp;&emsp;Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
               在参观博物馆时，游客可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，
               了解展品详细信息，提升游览体验。</p>
@@ -21,8 +21,6 @@
     <div class="QA">
 
       <div class="yellow_box1"/>
-      <div class="orange_box4"/>
-      <div class="orange_box5"/>
 
       <div class="QA_container">
 
@@ -99,7 +97,6 @@
             
             <div class = "pt3_1">
               
-              <div class="orange_box6"/>
                 <div style = "width: 40%; margin-right: 10%; margin-top: 50px;">
                     <!-- <h1 style = "text-align: right;font-size:2.7em; font-weight: bold;">推荐提问</h1> -->
                     <span class="QA_title" style = "text-align: right; margin-bottom: 50px; margin-top: 150px;">推荐</span>
@@ -186,6 +183,48 @@
 
         </div>
 
+        <div class = "pt3">
+          
+          <div class = "bg1">
+            <!-- 斜杠 -->
+          </div>
+            
+            <div class = "pt3_1">
+                <div style = "width: 40%; margin-right: 10%; margin-top: 50px;">
+                    <span class="QA_title" style = "text-align: right; margin-bottom: 50px; margin-top: 60px;">数据分析</span>
+                    <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:200%; font-size: 1.2em">
+                      Ginkgo系统会记录并分析用户的产品使用行为，从“用户”、“展品”与“推广”等多个维度，为博物馆在构建用户画像，发掘热门展品，改进部分展品的资料设置等方面提供指导建议。Ginkgo系统的数据分析技术能助力博物馆更好地了解游客需求，从而提升游客的游览体验。
+                    </p>
+                </div>
+                
+                <div style = "margin-left: 60px ;max-width: 30%;">
+                    <img src="/assets/data-analysis.png" style="transform: scale(1.3);border-radius:25px;max-width: 500px;"/>
+                </div>
+            </div>
+        </div>
+
+        <div class = "pt3">
+            
+            <div class = "bg2">
+                <!-- 斜杠 -->
+            </div>
+
+            <div class = "pt3_1" style="margin-left: 400px">
+
+                <div style="margin-right: 60px; max-width: 30%">
+                  <img src="/assets/creative-product.png" style="transform: scale(1.2);border-radius:25px;max-width: 500px;"/>
+                </div>
+
+                <div style = "margin-left: 120px; margin-top: 40px;">
+                    <span class="QA_title" style = "text-align: left; margin-bottom: 50px; margin-top: 60px; margin-right: 200px">文创产品设计——推广</span>
+                    <p style = "text-align: left; max-width: 300px;line-height:200%; font-size: 1.2em;">
+                      Musepedia为博物馆提供构建文创产品设计——推广体系的服务，从文创IP的诞生，到文创产品的交付，Musepedia团队把关全流程的每一个环节，为博物馆打造具有特色的文创产品。除此之外，Ginkgo系统能基于推荐算法，按不同策略向用户推广博物馆与文创产品。
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
     </div>
   </div>
 </template>
@@ -211,7 +250,7 @@
   position: relative;
   width:100%;
   height:900px;
-  background: #ff6839;
+  background: #f27853;
   clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
 }
 .orange_box1{
@@ -230,7 +269,7 @@
   width: 30%;
   height: 35%;
   margin-left:45%;
-  background: linear-gradient(0deg,rgba(255,153,0,0.65) 0%, rgba(255,142,38,0.00) 100%);
+  background: linear-gradient(0deg, #f28141, rgba(255,142,38,0.00) 100%);
   border-radius: 25px;
   transform-origin: -100% -30%;
   transform:  rotate(-12deg);
@@ -242,7 +281,7 @@
   height: 30%;
   bottom: 30%;
   left: 40%;
-  background: linear-gradient(180deg,#fff626, rgba(255,246,38,0.00) 100%);
+  background: linear-gradient(180deg,#fbd43d, rgba(255,246,38,0.00) 100%);
   border-radius: 25px;
   transform-origin: 100% 0;
   transform:  rotate(-12deg);

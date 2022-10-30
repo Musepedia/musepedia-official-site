@@ -10,7 +10,7 @@
 
         <ArchitectureDetail 
         title="Ginkgo是如何获取回答的" 
-        text="Ginkgo基于人工智能算法自动分析用户的问题，由经过特别优化的深度学习模型从候选文本中准确地抽取出回答。所有的候选文本均来自入驻Musepedia的博物馆在注册展品时上传的资料，因此所有回答均是可信的。" 
+        text="Ginkgo系统基于人工智能算法自动分析用户的问题，由经过特别优化的深度学习模型从候选文本中准确地抽取出回答。所有的候选文本均来自入驻Musepedia的博物馆在注册展品时上传的资料，因此所有回答均是可信的。" 
         :fig="qa" />
 
         <ArchitectureDetail 
@@ -69,7 +69,7 @@
 }
 .intro-text {
     font-family: 'PingFang SC';
-    line-height: 33px;
+    line-height: 180%;
     font-size: 18px;
     margin-top: 20px;
     margin-left: 30%;
