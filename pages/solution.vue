@@ -1,5 +1,8 @@
 <template>
   <div class="all">
+    <div style = "position: absolute; left: -20%; z-index: 2;">
+        <img src = "../assets/solutionTitle.png" style = "width: 100%"/>
+    </div>
     <div class="intro">
       <div class="orange_box1"/>
       <div class="orange_box2"/>
@@ -7,8 +10,9 @@
       <div class="small_box" style="background:#fff426; top:170px; left: 85px;"/>
       <div class="small_box" style="background:#ff3d00; top:150px; right: 75px;"/>
       <div class="small_box" style="background:#f1502e; bottom:150px; left: 415px;"/>
+
       <el-container style = "margin-top: 10%;">
-        <div style = "margin-top: 15px; line-height: 180%; text-align: left; font-size: 1.2em; width: 50%; height: auto; color: #ffffff">
+        <div style = "margin-top: 15px; line-height: 180%; text-align: left; font-size: 1.2em; width: 40%; height: auto; color: #ffffff">
             <p>&emsp;&emsp;Musepedia是一款面向博物馆的AI导览产品，同时也为博物馆导览提供了多场景解决方案，
               在参观博物馆时，游客可以使用“问答”、“推荐”和“发现”等功能与我们自主研发和设计的Ginkgo系统交互，
               了解展品详细信息，提升游览体验。</p>
@@ -23,28 +27,10 @@
       <div class="yellow_box1"/>
 
       <div class="QA_container">
-
-        <!-- <el-main style = "width: 40%;">
-          <el-row>
-            <span class="ask1">狼和狗有什么关系？</span>
-          </el-row>
-          <el-row>
-            <img src="/assets/M2.png" width="50" class="M2"/>
-            <span class="answer1">在生物学上与狗为同一种类</span>
-          </el-row>
-          <el-row>
-            <span class="ask1" style="width:fit-content;margin-left: 380px;margin-top: 40px;">大白鲨长什么样？</span>
-          </el-row>
-          <el-row>
-            <img src="/assets/M2.png" width="50" style="position:absolute;" class="M2"/>  
-          </el-row>
-          <img src="/assets/WhiteShark.png" class="answer2">
-        </el-main> -->
-
         <div class = "QA_content">
           <div style = "margin:10px 0;">
             <span class = "ask">
-              狼和狗有什么关系？
+              狼和狗有什么关系
             </span>
           </div>
           <div style = " margin:10px 0;">
@@ -55,7 +41,7 @@
           </div>
           <div style = "margin:10px 0;">
             <span class = "ask">
-              大白鲨长什么样？
+              大白鲨长什么样
             </span>
           </div>
           <div style = "margin:10px 0; vertical-align: top;">
@@ -98,7 +84,6 @@
             <div class = "pt3_1">
               
                 <div style = "width: 40%; margin-right: 10%; margin-top: 50px;">
-                    <!-- <h1 style = "text-align: right;font-size:2.7em; font-weight: bold;">推荐提问</h1> -->
                     <span class="QA_title" style = "text-align: right; margin-bottom: 50px; margin-top: 150px;">推荐</span>
                     <p style = "text-align: right; margin-left: 230px;letter-spacing:0.1px;line-height:200%; font-size: 1.2em">Ginkgo系统会结合用户兴趣与当前的提问等因素推荐相关问题，
                         帮助游客更好地了解展品。除此之外，Ginkgo系统会结合用户兴趣与当前位置等因素，在合适的时间推荐接下来建议前往的展区，帮助游客更好地规划游览路线。
@@ -146,7 +131,7 @@
                     <div style="position:absolute;z-index: 3; left: 10%; margin-top: 10px;">
                       <img src="../assets/ginkgo1.png" style="width: 95%;height: 95%;border-radius: 20px;"/>
                     </div>
-                    <div style="position:absolute;z-index: 3; left: 31%; margin-top: -10px">
+                    <div style="position:absolute;z-index: 3; left: 31%; margin-top: 0px">
                       <img src="../assets/ginkgo2.png" style="width: 70%;height: 70%;border-radius: 20px;"/>
                     </div>
                     <div style="position:absolute;z-index: 3; left: 41%; margin-top: 30px;">
@@ -155,10 +140,9 @@
 
                 </div>
 
-                <div style = "margin-left: 50px; margin-top: 50px;">
-                    <!-- <h1 style = "text-align: left;font-size:2.7em; font-weight: bold;">发现更多</h1> -->
+                <div style = "margin: 50px 10% 50px 5%;">
                     <span class="QA_title" style = "text-align: left; margin-bottom: 50px; margin-top: 100px;">发现</span>
-                    <p style = "text-align: left;max-width: 300px;line-height:200%; font-size: 1.2em;">
+                    <p style = "text-align: left;line-height:200%; font-size: 1.2em;">
                       根据不同⽤户的提问，展示当前热⻔展品及其相关的提问，⽤户可以点击展品了解详情，并浏览相关的热⻔问题及回答，从而更深入地了解感兴趣的展品。
                     </p>
                 </div>
@@ -209,15 +193,15 @@
                 <!-- 斜杠 -->
             </div>
 
-            <div class = "pt3_1" style="margin-left: 400px">
+            <div class = "pt3_1" style="margin-left: 20%">
 
                 <div style="margin-right: 60px; max-width: 30%">
                   <img src="/assets/creative-product.png" style="transform: scale(1.2);border-radius:25px;max-width: 500px;"/>
                 </div>
 
-                <div style = "margin-left: 120px; margin-top: 40px;">
+                <div style = "margin: 50px 10% 0 10%;">
                     <span class="QA_title" style = "text-align: left; margin-bottom: 50px; margin-top: 60px; margin-right: 200px">文创产品设计——推广</span>
-                    <p style = "text-align: left; max-width: 300px;line-height:200%; font-size: 1.2em;">
+                    <p style = "text-align: left;line-height:200%; font-size: 1.2em;">
                       Musepedia为博物馆提供构建文创产品设计——推广体系的服务，从文创IP的诞生，到文创产品的交付，Musepedia团队把关全流程的每一个环节，为博物馆打造具有特色的文创产品。除此之外，Ginkgo系统能基于推荐算法，按不同策略向用户推广博物馆与文创产品。
                     </p>
                 </div>
@@ -252,6 +236,7 @@
   height:900px;
   background: #f27853;
   clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+  z-index: 1;
 }
 .orange_box1{
   z-index: -1;
@@ -334,6 +319,7 @@
   width:100%;
   height: auto;
   margin-bottom: 300px;
+  margin-top: 300px;
 }
 .yellow_box1{
   position: absolute;
@@ -390,12 +376,13 @@
   color: #ffffff;
   // margin-inline-end: 20px;
   text-align: center;
-  height: 30px;
-  line-height: 30px;
+  height: 40px;
+  line-height: 40px;
   width: fit-content;
   font-weight: bold;
-  font-size: 1.1em;  
+  font-size: 1.3em;  
   padding-inline-start: 10px;
+  padding-inline-end: 10px;
   float: right;
 }
 .answer{
@@ -404,10 +391,10 @@
   color: #000000;
   text-align: center;
   font-weight: bold;
-  font-size: 1.1em;  
+  font-size: 1.3em;  
   padding-inline-start: 20px;
-  height: 30px;
-  line-height: 30px;
+  height: 40px;
+  line-height: 40px;
   width: fit-content;
   padding-inline-end: 10px;
   padding-inline-start: 10px;
@@ -539,7 +526,7 @@
     margin: 50px 5% 0 20%;
     background: #ffffff;
     border-radius: 20px;
-    width: 30%;
+    width: 70%;
     height: fit-content + 20px;
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 1em;

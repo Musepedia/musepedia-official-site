@@ -13,10 +13,10 @@
               了解展品详细信息，提升游览体验。</p>
           </div>
 
-          <div style = "cursor: pointer; margin-top: 150px; margin-bottom: 300px;
+          <div style = "margin-top: 150px; margin-bottom: 300px;
                 width: fit-content; padding-block-start: 20px; padding-block-end: 20px;">
-            <NuxtLink to="/about">
-              <button class = "button">关于我们</button>
+            <NuxtLink to="/solution">
+              <button class = "button" style = "cursor: pointer;">关于我们</button>
             </NuxtLink>
           </div>
         </div>
