@@ -16,6 +16,9 @@
         <el-col :span="3">
           <nuxt-link to="/about"><span class="text">关于我们</span></nuxt-link>
         </el-col>
+        <el-col :span="3">
+          <a href="https://admin.musepedia.cn" target="_blank"><span class="text">后台管理</span></a>
+        </el-col>
     </el-row>
 
     <!--  切换页面  -->
@@ -25,7 +28,7 @@
 
     <el-footer>
       <el-row class="info">联系邮箱：mimiter@mimiter.com</el-row>
-      <el-row class="info">Copyright © 2022 Mimiter Technology. All rights reserved. 米弥特科技 版权所有 </el-row>
+      <el-row class="info">Copyright © 2022-2023 Mimiter Technology. All rights reserved. 米弥特科技 版权所有 </el-row>
       <el-row class="info"><a href="http://beian.miit.gov.cn" target="_blank">沪ICP备2022030073</a></el-row>
     </el-footer>
   </div>
